@@ -1,0 +1,161 @@
+@font-face {
+  font-family: "shrikhand";
+  src: url("shrikhand/shrikhand-regular-webfont.woff2") format("woff2"),
+    url("shrikhand/shrikhand-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-image: radial-gradient(circle, #ffbfbf, #ff2727);
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  font-family: "shrikhand";
+}
+
+.logo {
+  display: block;
+  float: left;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: wheat;
+  margin-left: 10px;
+}
+
+.nav-atas {
+  font-size: 20px;
+  width: 800px;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 15px;
+  border-radius: 20px;
+  margin: 10px auto;
+}
+
+.login {
+  color: white;
+  font-size: 35px;
+  margin-top: -55px;
+  display: block;
+  float: right;
+  margin-right: 30px;
+}
+
+.login a {
+  text-decoration: none;
+  color: white;
+}
+
+.login a:hover {
+  text-decoration: underline;
+  opacity: 0.7;
+}
+
+.kiri {
+  width: 54%;
+  height: 400px;
+  margin-left: 40px;
+  color: white;
+  position: absolute;
+}
+
+.kiri h1 {
+  font-size: 120px;
+  letter-spacing: 5px;
+  margin-bottom: 5px;
+  margin-top: 50px;
+}
+
+.kiri p {
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+button {
+  font-family: "shrikhand";
+  width: 200px;
+  height: 50px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+}
+
+button a:hover {
+  color: red;
+}
+
+content {
+  float: right;
+  width: 40%;
+  height: 400px;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+  height: 50px;
+  background-color: white;
+  border: 2.5px solid black;
+  padding: 15px;
+  border-radius: 30px;
+  margin: -50px auto;
+}
+
+nav .merah {
+  height: 65px;
+  width: 85px;
+  background-color: rgba(92, 225, 230, 0.7);
+  border-radius: 50%;
+  background-image: url(gambar/sepatu\ merah.png);
+  background-size: cover;
+  margin-top: -5px;
+}
+
+nav .biru {
+  height: 65px;
+  width: 85px;
+  background-color: rgba(92, 225, 230, 0);
+  border-radius: 50%;
+  background-image: url(gambar/biru.png);
+  background-size: cover;
+  margin-top: -5px;
+}
+
+nav .item {
+  height: 65px;
+  width: 85px;
+  background-color: rgba(92, 225, 230, 0);
+  border-radius: 50%;
+  background-image: url(gambar/item.png);
+  background-size: cover;
+  margin-top: -5px;
+}
+
+nav .putih {
+  height: 65px;
+  width: 85px;
+  background-color: rgba(92, 225, 230, 0);
+  border-radius: 50%;
+  background-image: url(gambar/putih.png);
+  background-size: cover;
+  margin-top: -5px;
+}
+
+footer {
+  width: 100vw;
+  height: 40px;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+}
